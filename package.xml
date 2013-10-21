@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE contaopackage>
+<extension name="linotpAuth" date="20131021">
+    <author user="cornelinux" name="Cornelius Kölbel" />
+    <copyright>&amp;copy; 2013 Cornelius Kölbel</copyright>
+    <license>GPLv3</license>
+    <classification type="free" category="plugin" />
+    <release version="100000" build="3" date="20131021" />
+    <contao minversion="20100009" maxversion="20110059" />
+    <language code="de">
+        <translator user="cornelinux" name="Cornelius Kölbel" />
+        <searchtags>benutzer,authentifizierung,authentisierung,2fa,otp,linotp,token</searchtags>
+        <title>OTP Authentifizierung</title>
+        <teaser>Benutzer können sich mit einem zweiten Faktor am Contao gegen LinOTP authentisieren.</teaser>
+        <description>Mit diesem Modul können sich Benutzer statt mit dem einfachen Passwort mit einer Zweifaktor-Methode
+	authentisieren. Dabei werden die eingegebenen Credentials an einen LinOTP-Server gesendet, der die Validierung
+	durchführt. So kann sich ein Benutzer mit einem Google Authenticator, per SMS, mit einem Hardware-Token oder
+	jeglicher anderen App authentisieren.
+	</description>
+        <releasenotes>1.0 initiales Release</releasenotes>
+        <forum link="http://www.contao-community.org/" />
+    </language>
+    <language code="en">
+        <translator user="cornelinux" name="Cornelius Koelbel" />
+        <searchtags>user,authentication,2fa,otp,linotp,token</searchtags>
+        <title>OTP Authentication</title>
+        <teaser>Users can authenticate with a second factor at Contao by connecting contao to LinOTP authentication system.</teaser>
+        <description>
+	Using this module users can authenticate not with a simple password but with a second factor. Credentials will be forwarded
+	to the LinOTP system, that validates the authentication request.
+	Thus a user can authenticate using a Google Authenticator, via SMS, using any kind of hardware token or any smartphone app.
+	</description>
+        <releasenotes>1.0 initial release</releasenotes>
+        <forum link="http://www.contao-community.org/" />
+    </language>
+</extension>
